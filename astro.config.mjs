@@ -6,6 +6,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://casungo.github.io",
-  base: "testSlashAstro",
+  base: "/testSlashAstro",
   integrations: [mdx(), sitemap()],
 });
